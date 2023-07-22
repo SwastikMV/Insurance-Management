@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <style media="screen">
+    .jumbotron {
+      margin-top: 0px;
+      margin-bottom: 0px;
+    }
+
+    .jumbotron h1 {
+      text-align: center;
+    }
+
+    .alert {
+      margin: 0px;
+    }
+  </style>
+
+  <title></title>
+</head>
+
+<body>
+
+  {% include "insurance/navbar.html" %}
+  <br><br>
+  <center>
+    <h3 class='alert alert-success' style="margin-bottom:0px;">About Us !</h3>
+  </center>
+  <div class="jumbotron text-center" style="margin-bottom: 0px;margin-top: 0px;">
+    
+    <p class="lead"><b>“Every month that you send a check to the life insurance company, you're making a bet with them. Don't worry, one day you'll win.”</p></b>
+    <p class="lead"><h4>Contact Us:</p></h4>
+    <p class="lead"><h5>Mobile - 9482286932</h5></p>
+    <p class="lead"><h5>Email - swastikvaidya2001@gmail.com</p></h5>
+    <hr class="my-4">
+    <p><b>Explore our Website.</p></b>
+    <p class="lead">
+      <a class="btn btn-primary btn-lg" href="/" role="button">HOME</a>
+    </p>
+    <br><br><br><br>
+  </div>
+
+  {% include "insurance/footer.html" %}
+</body>
+
+</html>
